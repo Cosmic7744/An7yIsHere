@@ -1,6 +1,7 @@
-hr{
+hr {
   color: #ffffff;
 }
+
 .firstSection {
   background-image: url(img/download.png);
   height: 90vh;
@@ -8,7 +9,10 @@ hr{
   justify-content: space-around;
   align-items: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  position: relative;
+  top: 8vh;
 }
 
 .firstSection>.right {
@@ -55,6 +59,7 @@ nav img {
   transition: transform 0.3s;
   cursor: pointer;
 }
+
 .about-card h2 {
   color: #ffffff;
   margin-bottom: 10px;
@@ -71,15 +76,18 @@ nav img {
     grid-template-columns: 1fr;
   }
 }
-.secondSection{
+
+.secondSection {
   background-color: #1d1d1f;
 }
-.sectionNav{
+
+.sectionNav {
   display: flex;
   justify-content: center;
   text-align: center;
   font-size: 2.3rem;
 }
+
 .service-container {
   display: flex;
   flex-direction: column;
@@ -99,6 +107,11 @@ nav img {
   font-size: 2rem;
   margin-right: 20px;
 }
+#tn_i {
+  width: 9vw;
+  position: relative;
+  bottom: 8vh;
+}
 
 .text-card {
   flex: 1;
@@ -112,26 +125,30 @@ nav img {
     padding: 20px;
   }
 
-  .icon {
-    margin-bottom: 10px;
+  #firstIcon {
+    margin-bottom: 1.41vh;
     margin-right: 0;
   }
 }
-.thirdSection{
-  height: 80vh;
+
+.thirdSection {
+  height: 84vh;
   background-color: #1d1d1f;
   color: #ffffff;
 }
-.serviceSection1{
-  display:flex;
+
+.serviceSection1 {
+  display: flex;
   justify-content: space-around;
   margin-bottom: 20vh;
 }
-.serviceSection2{
-  display:flex;
+
+.serviceSection2 {
+  display: flex;
   justify-content: space-around;
 }
-.serviceCard{
+
+.serviceCard {
   background-color: #302e2e;
   border-radius: 20px;
   padding: 20px;
@@ -139,4 +156,50 @@ nav img {
   text-align: center;
   transition: transform 0.3s;
   cursor: pointer;
+}
+#sc2{
+  background-color: #302e2e;
+  border-radius: 20px;
+  padding: 20px;
+  width: 60vw;
+  text-align: center;
+  transition: transform 0.3s;
+  cursor: pointer;
+  position:relative;
+  bottom: 90px;
+}
+
+.fourthSection {
+  background-color: #1d1d1f;
+  color: #ffffff;
+  height:200vh;
+}
+
+.fourthSection nav {
+  font-size: 2.3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.fourthSection  .headingNav {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.hrr{
+  margin: 0 40vw;
+  height: 1.2rem;
+}
+.thumbnails {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 2rem; /* Add margin to create a gap between heading and thumbnails */
+}
+
+.thumbnails img {
+  width: 40vw;
+  margin-bottom: 10vh;
+  border-radius: 10%;
 }
