@@ -1,0 +1,73 @@
+.firstSection {
+  background-image: url(img/download.png);
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.firstSection>.right {
+  font-size: 3rem;
+  color: white;
+  position: relative;
+  bottom: 9vh;
+  text-align: center;
+  width: 550px;
+  background-color: rgba(25, 24, 24, 0.555);
+  border-radius: 50px;
+}
+
+.firstSection .left img {
+  border-radius: 50%;
+  position: relative;
+  bottom: 3vw;
+}
+
+nav img {
+  border-radius: 50%;
+  width: 3vw;
+}
+
+#navtest {
+  position: relative;
+  left: 4vw
+}
+
+/* Other styles */
+
+/* About section styles */
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.about-card {
+  background-color: #302e2e;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.about-card h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.about-card p {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+}
+.secondSection{
+  background-color: #1d1d1f;
+}
