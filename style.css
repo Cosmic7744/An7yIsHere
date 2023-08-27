@@ -274,23 +274,25 @@ nav img {
   margin-bottom: 30px;
 }
 .footer {
-  background-color: #1a1a1b;
+  background-color: #1d1d1f;
   color: #ffffff;
-  padding: 20px 0;
   text-align: center;
 }
 
 .footer-content {
-  max-width: 800px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.footer a {
-  color: #ffffff;
-  text-decoration: underline;
+.footer-text {
+
 }
 
-.footer a:hover {
-  color: #f8f8f8;
-  text-decoration: none;
+.developer {
+  font-weight: bold;
+}
+
+.discord {
+  color: #7fbcff;
 }
