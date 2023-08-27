@@ -172,7 +172,7 @@ nav img {
 .fourthSection {
   background-color: #1d1d1f;
   color: #ffffff;
-  height:200vh;
+  height:260vh;
 }
 
 .fourthSection nav {
@@ -202,4 +202,24 @@ nav img {
   width: 40vw;
   margin-bottom: 10vh;
   border-radius: 10%;
+}
+.videos{
+  display: flex;
+  justify-content: space-around;
+}
+.v{
+  border-radius: 20px;
+  width: 45vw;
+  margin-bottom: 5vh;
+}
+.fifthSection{
+  background-color: #1d1d1f;
+  height: 90vh;
+  color: #ffffff;
+} 
+.fifthSection nav{
+  font-size: 2.3rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
